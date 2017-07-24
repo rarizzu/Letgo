@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Boilerplate React App",
   "main": "app.js",
   "scripts": {
     "test": "karma start",
@@ -38,5 +38,13 @@
     "script-loader": "^0.6.1",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.13"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rarizzu/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rarizzu/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/rarizzu/react-boilerplate#readme"
 }
