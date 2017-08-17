@@ -7,7 +7,7 @@ module.exports = {
         './app/app.jsx'
     ],
     externals: {
-        jquery: 'jQuery' //allows foundation to attach tot he jquery plugin
+        jquery: 'jQuery' //allows foundation to attach to the jquery plugin
     },
     plugins: [ //plugins will provide us a shortcut to using the jquery module, webpack will look for $ sign and then require jquery
         new webpack.ProvidePlugin({
@@ -29,7 +29,16 @@ module.exports = {
         alias: {
             applicationStyles: 'app/styles/app.scss',
             Main: 'app/components/Main.jsx',
-            Nav: 'app/components/Nav.jsx'            
+            Nav: 'app/components/Nav.jsx',
+            Home: 'app/components/Home.jsx',
+            Categories: 'app/components/Categories.jsx',
+            Results: 'app/components/Results.jsx',
+            ItemRoutes: 'app/routes/ItemRoutes.js',
+            About: 'app/components/About.jsx',
+            Item: 'app/models/Item.js',
+            routes: 'app/routes/routes.js',
+            ListItem: 'app/components/ListItem.jsx',
+            New: 'app/components/New.jsx'
         },
         extensions: ["",".js",".jsx"]
     },

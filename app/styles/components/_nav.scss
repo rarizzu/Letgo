@@ -1,10 +1,52 @@
-.top-bar, .top-bar ul {
-    padding : 2.0rem;
-    background: #2098D1;
+$letgoColor: #ff3f55;
+$bodyColor: #f1f1f1;
+$topBarColor: #fff;
+
+body {
+    background-color: $bodyColor;
 }
 
-a {
-    background-color: black;
-    color: white;   
+.top-bar {
+    background-color: $topBarColor;
+    padding: 8px;
+}
 
+input[type="text"] {
+    border-radius : 0.25rem;
+    width: 20rem;
+    background-color: $bodyColor;
+    font-weight:400;
+    margin-right: 0;
+}
+
+
+
+
+
+.menu > li > a {
+    margin-right: 20px;
+    border-radius: 5px;
+    display: block;
+    background-color: $topBarColor;
+    border: 1.1px solid $letgoColor;
+    color: $letgoColor;
+}
+
+.menu > li > a:hover {
+    transition: 0.15s;
+    background-color: lighten($letgoColor,10);
+    
+}
+
+
+
+.top-bar, .top-bar ul {
+    background-color:$topBarColor;
+
+}
+
+.icon {
+    color: $letgoColor;
+    font-family: cursive;
+    font-size: 30px;
 }

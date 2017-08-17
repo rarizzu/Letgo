@@ -1,0 +1,55 @@
+//sidebar styling
+#side-bar {
+    background-color: #fff;
+    list-style-type: none;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Roboto',Helvetica,Arial,sans-serif;
+   
+    
+}
+
+.row {
+    margin-left:-5px;
+    margin-right: -5px;
+}
+
+
+#side-bar>p {
+    padding-top: 1rem;
+    margin-bottom: -1rem;
+}
+
+#side-bar>ul {
+    margin-top: -1rem;
+    
+}
+
+#side-bar> ul> li> a {
+    color: #333;
+    margin-left: -1rem;
+    line-height: 1.8rem;
+    padding-right: -10px;
+}
+
+#side-bar> div> ul> li> a:hover {
+    font-weight: 500;
+}
+
+.inner {
+    padding: 3px;
+}
+
+
+
+.side-nav
+{
+list-style-type: none;
+}
+
+hr {
+    width: auto;
+}
+    

@@ -1,13 +1,11 @@
 var React = require('react');
 var ReactDOM = require("react-dom");
-var {Route, Router, IndexRoute, hashHistory} = require("react-router");
+var {Route, Router, IndexRoute, browserHistory, hashHistory, HashRouter} = require("react-router");
 var Main = require("Main");
-
-
-
-
-
-
+var Home = require("Home");
+var Results = require("Results");
+var About = require("About");
+import routes from 'routes';
 
 $(document).foundation();
 
@@ -17,8 +15,6 @@ require('style!css!sass!applicationStyles')
 
 
 ReactDOM.render(
-        <Router>
-            <Route path="/" component={Main} />
-        </Router>,
+        <Router history={browserHistory} routes={routes} />,    
         document.getElementById('app')
     );
