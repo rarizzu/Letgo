@@ -1,1 +1,1 @@
-Boilerplate React App
+Practice Letgo App/Future Boilerplate for MERN projecs
